@@ -13,3 +13,7 @@ app.get('/', (req,res) => {
 app.get('/supplica', (req,res) => {
 		res.send('Supplica');
 });
+
+app.get('*', (req,res) => {
+		res.send('Cosa??', 404);
+});
