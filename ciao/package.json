@@ -13,6 +13,6 @@
   "author": "gianfer99",
   "license": "MIT",
   "dependencies": {
-    "Express": "^3.0.1"
+    "express": "^4.15.2"
   }
 }
