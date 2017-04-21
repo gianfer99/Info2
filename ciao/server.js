@@ -1,6 +1,6 @@
 'use strict';
 const express = require('express');
-const app = new express();
+const app = express();
 
 app.listen(8000, () => { 
 		console.log("Server in ascolto sulla porta 8000");
